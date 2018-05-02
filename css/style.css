@@ -12,6 +12,7 @@ body {
 }
 
 .navlist {
+	background-color: purple;
 	border: #000;
 	border-width: 3px;
 }
