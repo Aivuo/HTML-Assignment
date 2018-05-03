@@ -43,20 +43,45 @@ header{
 
 #info{
     float: left;
-    width: 75%
+    color: white;
+    width: 800px;
 }
 
 #topContent{
-    background-color: crimson;
+    color: white;
 }
 
 #sideList{
-    background-color: cyan;
+    color: white;
     float: right;
 }
 
-#content{
-    width: 75%;
+/*Optional part
+#sideList ul > li{
+    color: royalblue;
+}
+
+#sideList ul > li:nth-of-type(2), #sideList ul > li:nth-of-type(4){
+    color: purple;
+}
+ */
+
+#art1{
+    width: 400px;
+    float: left;
+}
+
+/* 
+Optional part!
+#art1 p:nth-of-type(2){
+    color: blue;
+    font-weight: bold;
+} 
+*/
+
+#art2{
+    width: 400px;
+    float: left;
 }
 
 .container {
